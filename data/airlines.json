@@ -1,0 +1,264 @@
+{
+  "QF": {
+    "iata": "QF",
+    "icao": "QFA",
+    "name": "Qantas",
+    "country": "AU",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_QF_50_50_s.png",
+    "statusUrl": "https://www.qantas.com/au/en/travel-info/flight-status.html",
+    "rebookUrl": "https://www.qantas.com/au/en/manage-booking/rebook.html",
+    "refundUrl": "https://www.qantas.com/au/en/manage-booking/refund.html",
+    "website": "https://www.qantas.com"
+  },
+  "JQ": {
+    "iata": "JQ",
+    "icao": "JST",
+    "name": "Jetstar",
+    "country": "AU",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_JQ_50_50_s.png",
+    "statusUrl": "https://www.jetstar.com/au/en/travel-updates/flight-status",
+    "rebookUrl": "https://www.jetstar.com/au/en/manage-booking",
+    "refundUrl": "https://www.jetstar.com/au/en/manage-booking/refund-or-credit",
+    "website": "https://www.jetstar.com"
+  },
+  "VA": {
+    "iata": "VA",
+    "icao": "VOZ",
+    "name": "Virgin Australia",
+    "country": "AU",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_VA_50_50_s.png",
+    "statusUrl": "https://www.virginaustralia.com/au/en/travel-info/flight-status/",
+    "rebookUrl": "https://www.virginaustralia.com/au/en/manage-booking/",
+    "refundUrl": "https://www.virginaustralia.com/au/en/manage-booking/refund/",
+    "website": "https://www.virginaustralia.com"
+  },
+  "ZL": {
+    "iata": "ZL",
+    "icao": "RXA",
+    "name": "Rex Airlines",
+    "country": "AU",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_ZL_50_50_s.png",
+    "statusUrl": "https://www.rex.com.au/FlightInformation/FlightStatus.aspx",
+    "rebookUrl": "https://www.rex.com.au/FlightInformation/ManageBooking.aspx",
+    "website": "https://www.rex.com.au"
+  },
+  "EK": {
+    "iata": "EK",
+    "icao": "UAE",
+    "name": "Emirates",
+    "country": "AE",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_EK_50_50_s.png",
+    "statusUrl": "https://www.emirates.com/au/english/manage-booking/flight-status/",
+    "rebookUrl": "https://www.emirates.com/au/english/manage-booking/",
+    "refundUrl": "https://www.emirates.com/au/english/help/faqs/refunds/",
+    "website": "https://www.emirates.com"
+  },
+  "SQ": {
+    "iata": "SQ",
+    "icao": "SIA",
+    "name": "Singapore Airlines",
+    "country": "SG",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_SQ_50_50_s.png",
+    "statusUrl": "https://www.singaporeair.com/en_UK/au/travel-info/flight-schedule/flight-status/",
+    "rebookUrl": "https://www.singaporeair.com/en_UK/au/manage-booking/",
+    "refundUrl": "https://www.singaporeair.com/en_UK/au/manage-booking/refund/",
+    "website": "https://www.singaporeair.com"
+  },
+  "NZ": {
+    "iata": "NZ",
+    "icao": "ANZ",
+    "name": "Air New Zealand",
+    "country": "NZ",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_NZ_50_50_s.png",
+    "statusUrl": "https://www.airnewzealand.com.au/flight-status",
+    "rebookUrl": "https://www.airnewzealand.com.au/manage-your-booking",
+    "refundUrl": "https://www.airnewzealand.com.au/refunds",
+    "website": "https://www.airnewzealand.com.au"
+  },
+  "CX": {
+    "iata": "CX",
+    "icao": "CPA",
+    "name": "Cathay Pacific",
+    "country": "HK",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_CX_50_50_s.png",
+    "statusUrl": "https://www.cathaypacific.com/cx/en_AU/travel-information/flight-status.html",
+    "rebookUrl": "https://www.cathaypacific.com/cx/en_AU/manage-booking.html",
+    "refundUrl": "https://www.cathaypacific.com/cx/en_AU/manage-booking/refund.html",
+    "website": "https://www.cathaypacific.com"
+  },
+  "MH": {
+    "iata": "MH",
+    "icao": "MAS",
+    "name": "Malaysia Airlines",
+    "country": "MY",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_MH_50_50_s.png",
+    "statusUrl": "https://www.malaysiaairlines.com/au/en/site/flight-status.html",
+    "rebookUrl": "https://www.malaysiaairlines.com/au/en/site/manage-my-booking.html",
+    "website": "https://www.malaysiaairlines.com"
+  },
+  "TG": {
+    "iata": "TG",
+    "icao": "THA",
+    "name": "Thai Airways",
+    "country": "TH",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_TG_50_50_s.png",
+    "statusUrl": "https://www.thaiairways.com/en_AU/flight_information/flight_status.page",
+    "rebookUrl": "https://www.thaiairways.com/en_AU/manage-booking.page",
+    "website": "https://www.thaiairways.com"
+  },
+  "NH": {
+    "iata": "NH",
+    "icao": "ANA",
+    "name": "ANA All Nippon Airways",
+    "country": "JP",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_NH_50_50_s.png",
+    "statusUrl": "https://www.ana.co.jp/en/au/travel-information/flight-status/",
+    "rebookUrl": "https://www.ana.co.jp/en/au/manage/",
+    "website": "https://www.ana.co.jp/en/au/"
+  },
+  "JL": {
+    "iata": "JL",
+    "icao": "JAL",
+    "name": "Japan Airlines",
+    "country": "JP",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_JL_50_50_s.png",
+    "statusUrl": "https://www.jal.com/en/flightinfo/status/",
+    "rebookUrl": "https://www.jal.com/en/booking/change/",
+    "website": "https://www.jal.com/en/"
+  },
+  "BA": {
+    "iata": "BA",
+    "icao": "BAW",
+    "name": "British Airways",
+    "country": "GB",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_BA_50_50_s.png",
+    "statusUrl": "https://www.britishairways.com/en-au/information/flight-status",
+    "rebookUrl": "https://www.britishairways.com/en-au/manage-my-booking",
+    "refundUrl": "https://www.britishairways.com/en-au/information/your-booking/cancellations-and-refunds",
+    "website": "https://www.britishairways.com"
+  },
+  "LH": {
+    "iata": "LH",
+    "icao": "DLH",
+    "name": "Lufthansa",
+    "country": "DE",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_LH_50_50_s.png",
+    "statusUrl": "https://www.lufthansa.com/au/en/flight-status",
+    "rebookUrl": "https://www.lufthansa.com/au/en/manage-booking",
+    "refundUrl": "https://www.lufthansa.com/au/en/refunds",
+    "website": "https://www.lufthansa.com"
+  },
+  "AF": {
+    "iata": "AF",
+    "icao": "AFR",
+    "name": "Air France",
+    "country": "FR",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_AF_50_50_s.png",
+    "statusUrl": "https://www.airfrance.com.au/AU/en/common/guidevoyageur/practical/suivi-de-vol-air-france.htm",
+    "rebookUrl": "https://www.airfrance.com.au/AU/en/common/managebooking/",
+    "website": "https://www.airfrance.com.au"
+  },
+  "KL": {
+    "iata": "KL",
+    "icao": "KLM",
+    "name": "KLM Royal Dutch Airlines",
+    "country": "NL",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_KL_50_50_s.png",
+    "statusUrl": "https://www.klm.com/en-au/flight-information/flight-status",
+    "rebookUrl": "https://www.klm.com/en-au/manage-booking",
+    "website": "https://www.klm.com/en-au"
+  },
+  "UA": {
+    "iata": "UA",
+    "icao": "UAL",
+    "name": "United Airlines",
+    "country": "US",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_UA_50_50_s.png",
+    "statusUrl": "https://www.united.com/en/us/flightstatus",
+    "rebookUrl": "https://www.united.com/en/us/manageres/",
+    "refundUrl": "https://www.united.com/en/us/manageres/refunds",
+    "website": "https://www.united.com"
+  },
+  "DL": {
+    "iata": "DL",
+    "icao": "DAL",
+    "name": "Delta Air Lines",
+    "country": "US",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_DL_50_50_s.png",
+    "statusUrl": "https://www.delta.com/us/en/flight-search/check-in",
+    "rebookUrl": "https://www.delta.com/us/en/manage-booking/overview",
+    "refundUrl": "https://www.delta.com/us/en/manage-booking/refund-request",
+    "website": "https://www.delta.com"
+  },
+  "AA": {
+    "iata": "AA",
+    "icao": "AAL",
+    "name": "American Airlines",
+    "country": "US",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_AA_50_50_s.png",
+    "statusUrl": "https://www.aa.com/travelInformation/flights/status",
+    "rebookUrl": "https://www.aa.com/reservation/view.do",
+    "website": "https://www.aa.com"
+  },
+  "AC": {
+    "iata": "AC",
+    "icao": "ACA",
+    "name": "Air Canada",
+    "country": "CA",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_AC_50_50_s.png",
+    "statusUrl": "https://www.aircanada.com/au/en/aco/home/fly/flight-status.html",
+    "rebookUrl": "https://www.aircanada.com/au/en/aco/home/book/tools-and-resources/manage-bookings.html",
+    "website": "https://www.aircanada.com"
+  },
+  "AI": {
+    "iata": "AI",
+    "icao": "AIC",
+    "name": "Air India",
+    "country": "IN",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_AI_50_50_s.png",
+    "statusUrl": "https://www.airindia.com/flight-status",
+    "rebookUrl": "https://www.airindia.com/manage-booking.htm",
+    "website": "https://www.airindia.com"
+  },
+  "QR": {
+    "iata": "QR",
+    "icao": "QTR",
+    "name": "Qatar Airways",
+    "country": "QA",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_QR_50_50_s.png",
+    "statusUrl": "https://www.qatarairways.com/en-au/flight-status.html",
+    "rebookUrl": "https://www.qatarairways.com/en-au/manage-booking.html",
+    "refundUrl": "https://www.qatarairways.com/en-au/manage-booking/refund.html",
+    "website": "https://www.qatarairways.com"
+  },
+  "EY": {
+    "iata": "EY",
+    "icao": "ETD",
+    "name": "Etihad Airways",
+    "country": "AE",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_EY_50_50_s.png",
+    "statusUrl": "https://www.etihad.com/en-au/fly-etihad/flight-status",
+    "rebookUrl": "https://www.etihad.com/en-au/manage/",
+    "website": "https://www.etihad.com/en-au"
+  },
+  "GA": {
+    "iata": "GA",
+    "icao": "GIA",
+    "name": "Garuda Indonesia",
+    "country": "ID",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_GA_50_50_s.png",
+    "statusUrl": "https://www.garuda-indonesia.com/au/en/flight-information/flight-status/",
+    "rebookUrl": "https://www.garuda-indonesia.com/au/en/manage-booking/",
+    "website": "https://www.garuda-indonesia.com"
+  },
+  "FJ": {
+    "iata": "FJ",
+    "icao": "FAJ",
+    "name": "Fiji Airways",
+    "country": "FJ",
+    "logoUrl": "https://content.airhex.com/content/logos/airlines_FJ_50_50_s.png",
+    "statusUrl": "https://www.fijiairways.com/flight-status",
+    "rebookUrl": "https://www.fijiairways.com/manage-booking",
+    "website": "https://www.fijiairways.com"
+  }
+}

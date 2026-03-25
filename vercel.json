@@ -1,0 +1,34 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/refresh-flights",
+      "schedule": "*/2 * * * *",
+      "description": "Refresh live flight disruption data every 2 minutes"
+    },
+    {
+      "path": "/api/cron/refresh-advisories",
+      "schedule": "0 */6 * * *",
+      "description": "Refresh government travel advisories every 6 hours"
+    },
+    {
+      "path": "/api/cron/refresh-weather",
+      "schedule": "*/15 * * * *",
+      "description": "Refresh weather alerts every 15 minutes"
+    },
+    {
+      "path": "/api/cron/archive-disruptions",
+      "schedule": "0 2 * * *",
+      "description": "Archive disruptions older than 48 hours — runs nightly at 2am UTC"
+    },
+    {
+      "path": "/api/cron/check-pds-links",
+      "schedule": "0 3 * * 1",
+      "description": "Check insurance PDS link health — runs weekly Monday 3am UTC"
+    },
+    {
+      "path": "/api/cron/send-alerts",
+      "schedule": "*/5 * * * *",
+      "description": "Process and send pending disruption alert notifications every 5 minutes"
+    }
+  ]
+}
