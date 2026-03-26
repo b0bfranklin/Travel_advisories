@@ -23,7 +23,7 @@ interface FlightCardProps {
   status: FlightStatusData | null
 }
 
-function CheckInBadge({ departure }: { departure: string }) {
+function CheckInBadge({ departure, timezone }: { departure: string; timezone: string }) {
   const ciStatus = checkInStatus(departure)
   const opensAt = checkInOpensAt(departure)
 
@@ -56,11 +56,7 @@ function CheckInBadge({ departure }: { departure: string }) {
   return (
     <span className="inline-flex items-center gap-1 text-xs text-muted-foreground">
       <Clock className="h-3 w-3" />
-      Check-in opens{' '}
-      {formatLocalDateTime(
-        opensAt.toISOString(),
-        departure.includes('+10') ? 'Australia/Melbourne' : 'Asia/Dubai'
-      )}
+      Check-in opens {formatLocalDateTime(opensAt.toISOString(), timezone)}
     </span>
   )
 }
@@ -170,7 +166,7 @@ export function FlightCard({ leg, status }: FlightCardProps) {
 
         {/* Check-in status */}
         <div className="mt-3">
-          <CheckInBadge departure={leg.scheduledDeparture} />
+          <CheckInBadge departure={leg.scheduledDeparture} timezone={leg.from.timezone} />
         </div>
 
         {/* Lounge info */}
