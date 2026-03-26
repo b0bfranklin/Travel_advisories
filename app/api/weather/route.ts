@@ -1,5 +1,13 @@
 import { NextResponse } from 'next/server'
-// TODO: implement
+import { getAllWeather } from '@/lib/weather'
+
+export const dynamic = 'force-dynamic'
+
 export async function GET() {
-  return NextResponse.json({ error: 'Not yet implemented' }, { status: 501 })
+  try {
+    const data = await getAllWeather()
+    return NextResponse.json({ data, updatedAt: new Date().toISOString() })
+  } catch {
+    return NextResponse.json({ error: 'Failed to fetch weather' }, { status: 500 })
+  }
 }
