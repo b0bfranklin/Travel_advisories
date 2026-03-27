@@ -1,4 +1,6 @@
-import { Briefcase, Star, ExternalLink } from 'lucide-react'
+'use client'
+
+import { Briefcase, Star, ExternalLink, Info } from 'lucide-react'
 import { PE_ENTITLEMENTS, EMIRATES_LINKS } from '@/data/trip'
 
 export function EmiratiesInfo() {
@@ -10,8 +12,16 @@ export function EmiratiesInfo() {
           Premium Economy — Quick Reference
         </h2>
       </div>
-
       <div className="rounded-lg border bg-card">
+        {/* Lounge access clarification banner */}
+        <div className="flex items-start gap-2 border-b bg-amber-50 px-4 py-3 dark:bg-amber-900/10">
+          <Info className="mt-0.5 h-3.5 w-3.5 shrink-0 text-amber-600 dark:text-amber-400" />
+          <p className="text-xs text-amber-700 dark:text-amber-400">
+            <strong>Lounge access note:</strong> Premium Economy tickets do <em>not</em> include Emirates lounge access.
+            Your lounge access at all four ports comes from <strong>Qantas Platinum status</strong> — see the Lounge Access panel above.
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 divide-y sm:grid-cols-2 sm:divide-x sm:divide-y-0">
           {PE_ENTITLEMENTS.map((item) => (
             <div key={item.label} className="flex items-start gap-2 px-4 py-3">
